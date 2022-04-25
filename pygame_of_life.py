@@ -79,11 +79,10 @@ class Life(dict): # making it a dictionary makes it faster. don't have to repres
 if __name__ == '__main__':
 	game = Life(
 		{
+			(24, 25): 1,
 			(25, 25): 1,
 			(26, 25): 1,
-			(25, 26): 1,
-			(24, 26): 1,
-			(25, 27): 1
+			(25, 24): 1
 		}
-	) # this is a stable pattern, so not so much fun.  but you can put other stuff in here too
+	) 
 	game.run()
