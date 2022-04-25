@@ -1,4 +1,4 @@
-import sys, time, pygame
+import sys, pygame
 
 BOARD_WIDTH  = 640
 BOARD_HEIGHT = 480
